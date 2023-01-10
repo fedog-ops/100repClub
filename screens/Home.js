@@ -4,7 +4,7 @@ import {COLORS, NFTData} from '../constants'
 import {Card, HomeHeader, FocusedStatusBar, CircleButton} from '../components'
 const Home = () => {
   return (
-   <SafeAreaView style={{flex:1}}>
+   <SafeAreaView style={{flex:1, backgroundColor:COLORS.primary}}>
         <FocusedStatusBar background={COLORS.primary}/>
 
             <View style={{flex:1}}>

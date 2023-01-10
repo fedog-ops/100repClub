@@ -76,12 +76,12 @@ export const Price = ({price}) => {
             fontSize: FONTS.regular,
             color: COLORS.primary,
             fontSize: SIZES.small,
-        }}>Ending in</Text>
+        }}>Reps</Text>
          <Text style={{
             fontSize: FONTS.semiBold,
             color: COLORS.primary,
             fontSize: SIZES.medium,
-        }}>3h 27m</Text>
+        }}>100+</Text>
       </View>
     )
   }

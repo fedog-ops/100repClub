@@ -3,12 +3,11 @@ import assets from "./assets";
 const NFTData = [
   {
     id: "NFT-01",
-    name: "Abstracto #312",
+    name: "Squat",
     creator: "Putri Intan",
     price: 4.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
-    image: assets.nft01,
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Egestas quis ipsum suspendisse ultrices gravida. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.", image: assets.nft01,
     bids: [
       {
         id: "BID-11",
@@ -35,7 +34,7 @@ const NFTData = [
   },
   {
     id: "NFT-02",
-    name: "Green Coins",
+    name: "Cable Fly",
     creator: "Siti Nurhaliza",
     price: 7.25,
     description:
@@ -53,7 +52,7 @@ const NFTData = [
   },
   {
     id: "NFT-03",
-    name: "NFT coins race",
+    name: "Deadlift",
     creator: "Elisabeth aho",
     price: 95.25,
     description:
@@ -78,7 +77,7 @@ const NFTData = [
   },
   {
     id: "NFT-04",
-    name: "Nifty NFT",
+    name: "Pull Ups",
     creator: "Putri Intan",
     price: 54.25,
     description:
@@ -117,7 +116,7 @@ const NFTData = [
   },
   {
     id: "NFT-05",
-    name: "Colorful circles",
+    name: "Cardio",
     creator: "David doe",
     price: 10.25,
     description:
@@ -135,7 +134,7 @@ const NFTData = [
   },
   {
     id: "NFT-06",
-    name: "Black box model",
+    name: "Shoudlers",
     creator: "Leo Messi",
     price: 20.25,
     description:
@@ -181,7 +180,7 @@ const NFTData = [
   },
   {
     id: "NFT-07",
-    name: "Abstracto soulful art",
+    name: "Dumbell",
     creator: "Victor de la Cruz",
     price: 18.25,
     description:
