@@ -1,11 +1,14 @@
 import React from 'react'
-import { View } from 'react-native'
+import { View, Text, SafeAreaView, Image, StatusBar, FlatList, Touchable } from 'react-native'
+import { COLORS, SIZES, FONTS, assets } from '../constants'
+import {CircleButton, RectButton, SubInfo, FocusedStatusBar, DetailsDesc, DetailsBid} from '../components'
 
 const Details = () => {
   return (
-    <View>
-      <Text>Details</Text>
-    </View>
+  <SafeAreaView>
+      <Text >Details</Text>
+
+  </SafeAreaView>
   )
 }
 
