@@ -65,7 +65,7 @@ const HomeHeader = ({onSearch}) => {
     paddingVertical: SIZES.small -2
   }}>
     <Image source={assets.search} resizeMode="contain" style={{width:20, height: 20, marginRight:SIZES.base}}/>
-    <TextInput placeholder="search" style={{flex:1}} onChangeText={()=>{onSearch}} />
+    <TextInput placeholder="search" style={{flex:1}} onChangeText={onSearch} />
   </View>
 </View>
 

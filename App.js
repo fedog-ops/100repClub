@@ -4,8 +4,10 @@ import { useFonts} from 'expo-font'
 import Homescreen from './screens/Homescreen';
 import Home from './screens/Home';
 import Details from './screens/Details';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
 
 const theme = {
   ...DefaultTheme,

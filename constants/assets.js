@@ -13,10 +13,10 @@ import nft05 from "../assets/images/treadmill.jpeg";
 import nft06 from "../assets/images/dumbells.jpeg";
 import nft07 from "../assets/images/dumbells.jpeg";
 
-import person01 from "../assets/images/person01.png";
-import person02 from "../assets/images/person02.png";
-import person03 from "../assets/images/person03.png";
-import person04 from "../assets/images/person04.png";
+import person01 from "../assets/images/head1.png";
+import person02 from "../assets/images/head2.png";
+import person03 from "../assets/images/head3.png";
+import person04 from "../assets/images/head4.png";
 
 export default {
   badge,
