@@ -1,44 +1,44 @@
 import assets from "./assets";
 
-const NFTData = [
+const WorkoutData = [
   {
-    id: "NFT-01",
+    id: "E-01",
     name: "Squat",
-    creator: "Putri Intan",
+    creator: "Legs",
     price: 4.25,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Egestas quis ipsum suspendisse ultrices gravida. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.", image: assets.nft01,
+    "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. During the descent and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up.", image: assets.nft01,
     bids: [
       {
         id: "BID-11",
         name: "Jessica Tan",
-        price: 4.25,
+        price: 4.45,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-12",
         name: "Jennifer Sia",
-        price: 4.5,
+        price: 5.21,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
       {
         id: "BID-13",
         name: "Rosie Wong",
-        price: 4.75,
+        price: 5.34,
         image: assets.person04,
         date: "December 31, 2019 at 3:50 PM",
       },
     ],
   },
   {
-    id: "NFT-02",
+    id: "E-02",
     name: "Cable Fly",
-    creator: "Siti Nurhaliza",
+    creator: "Chest",
     price: 7.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+      "The cable chest fly is an isolation movement aimed at targeting the chest. It is a great alternative to a standard dumbbell fly due to its increased tension at the top of the movement, adding more activation and squeeze onto the chest.",
     image: assets.nft02,
     bids: [
       {
@@ -51,95 +51,94 @@ const NFTData = [
     ],
   },
   {
-    id: "NFT-03",
+    id: "E-03",
     name: "Deadlift",
-    creator: "Elisabeth aho",
-    price: 95.25,
+    creator: "Back",
+    price: 8.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+      "The deadlift is a movement in which your hips hinge backward to lower down and pick up a weighted barbell or kettlebell from the floor. Your back is flat throughout the movement. Some benefits of performing deadlifts include strengthening and gaining more definition in your upper and lower back, glutes, and hamstrings.",
     image: assets.nft03,
     bids: [
       {
         id: "BID-31",
         name: "Jessica Tan",
-        price: 95.25,
+        price: 9.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-32",
         name: "Jennifer Sia",
-        price: 95.5,
+        price: 9.48,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
     ],
   },
   {
-    id: "NFT-04",
+    id: "E-04",
     name: "Pull Ups",
-    creator: "Putri Intan",
-    price: 54.25,
+    creator: "Back",
+    price: 4.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur.",
+      "A pull-up is an upper-body exercise that involves hanging from a pull-up bar by your hands with your palms facing away from you, and lifting your entire body up with your arm and back muscles until your chest touches the bar. The pull-up movement uses multiple muscles at once, making it a compound exercise.",
     image: assets.nft04,
     bids: [
       {
         id: "BID-41",
         name: "Jessica Tan",
-        price: 56.25,
+        price: 5.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-42",
         name: "Jennifer Sia",
-        price: 54.25,
+        price: 5.25,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
       {
         id: "BID-43",
         name: "Rosie Wong",
-        price: 55.15,
+        price: 5.15,
         image: assets.person04,
         date: "December 31, 2019 at 3:50 PM",
       },
       {
         id: "BID-44",
         name: "Vincent Swift",
-        price: 54.15,
+        price: 4.15,
         image: assets.person02,
         date: "December 31, 2019 at 3:50 PM",
       },
     ],
   },
   {
-    id: "NFT-05",
-    name: "Cardio",
-    creator: "David doe",
-    price: 10.25,
+    id: "E-05",
+    name: "Running",
+    creator: "Cardio",
+    price: 20.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
+      "Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. Running is a type of gait characterized by an aerial phase in which all feet are above the ground (though there are exceptions).",
     image: assets.nft05,
     bids: [
       {
         id: "BID-51",
         name: "Jessica Tan",
-        price: 10.25,
+        price: 24.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
     ],
   },
   {
-    id: "NFT-06",
-    name: "Shoudlers",
-    creator: "Leo Messi",
-    price: 20.25,
+    id: "E-06",
+    name: "Shoudler Press",
+    creator: "Shoulders",
+    price: 9.45,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
-    image: assets.nft06,
+      "The Shoulder Press is an upper body strength training movement, traditionally performed with dumbbells or a barbell. The weight is pressed vertically overhead, similar the overhead press, military press, Arnold press, and push press.",   image: assets.nft06,
     bids: [
       {
         id: "BID-61",
@@ -151,21 +150,21 @@ const NFTData = [
       {
         id: "BID-62",
         name: "Jennifer Sia",
-        price: 20.5,
+        price: 12.51,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
       {
         id: "BID-63",
         name: "Rosie Wong",
-        price: 20.75,
+        price: 13.75,
         image: assets.person04,
         date: "December 31, 2019 at 3:50 PM",
       },
       {
         id: "BID-64",
         name: "Siti Nurhaliza",
-        price: 21.25,
+        price: 11.25,
         image: assets.person02,
         date: "December 31, 2019 at 3:50 PM",
       },
@@ -179,15 +178,15 @@ const NFTData = [
     ],
   },
   {
-    id: "NFT-07",
+    id: "E-07",
     name: "Dumbell",
-    creator: "Victor de la Cruz",
-    price: 18.25,
+    creator: "Multiple",
+    price: 13.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Ullamcorper platea penatibus ornare egestas nulla ligula hendrerit nisl suscipit sociosqu maximus, tincidunt aptent habitant purus pharetra ultrices dapibus laoreet nisi lacinia. Porta malesuada netus vel sapien conubia porttitor aliquam ut pretium ante litora molestie senectus magna egestas sociosqu, eget aliquet fames pharetra felis posuere varius fringilla quisque in arcu montes eu ullamcorper.",
+      "Dumbbells are often used for joint-isolation exercises such as biceps curls, chest flyes or shoulder raises. Using dumbbells for full-body, multiplanar movements, however, can provide a variety of different strength outcomes. It also offers many benefits for cardiorespiratory fitness and flexibility.",
     image: assets.nft07,
     bids: [],
   },
 ];
 
-export { NFTData };
+export { WorkoutData };

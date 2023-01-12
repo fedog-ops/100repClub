@@ -1,18 +1,18 @@
 import { useState } from 'react'
 import {Text, View, SafeArea, FlatList, SafeAreaView} from 'react-native'
-import {COLORS, NFTData} from '../constants'
+import {COLORS, WorkoutData} from '../constants'
 import {Card, HomeHeader, FocusedStatusBar, CircleButton} from '../components'
 const Home = () => {
 
-const [nftData, setNftData] = useState(NFTData)
+const [workoutData, setWorkoutData] = useState(WorkoutData)
 const handleSearch = (value) => {
-    if(!value.length) return setNftData(NFTData)
+    if(!value.length) return setWorkoutData(WorkoutData)
 
-    const filteredData = NFTData.filter(item => item.name.toLowerCase().includes(value.toLowerCase()))
+    const filteredData = WorkoutData.filter(item => item.name.toLowerCase().includes(value.toLowerCase()))
     if (filteredData.length){
-        setNftData(filteredData);
+        setWorkoutData(filteredData);
     } else{
-        setNftData(NFTData); 
+        setWorkoutData(WorkoutData); 
     }
 }
 
@@ -26,7 +26,7 @@ const handleSearch = (value) => {
 
                 <View style={{zIndex:0}}>
                     <FlatList 
-                        data={nftData}
+                        data={workoutData}
                         renderItem={({item}) => <Card data={item}/>}
                         keyExtractor={(item)=>item.id}
                         showsVerticalScrollIndicator={false}

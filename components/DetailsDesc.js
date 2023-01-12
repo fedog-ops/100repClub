@@ -24,7 +24,7 @@ const DetailsDesc = ({ data }) => {
         />
         <Price price={data.price} />
       </View>
-      <View>
+      <View style={{ paddingVertical: SIZES.font}}>
         <Text
           style={{
             fontSize: SIZES.font,
@@ -34,7 +34,7 @@ const DetailsDesc = ({ data }) => {
         >
           Description
         </Text>
-        <View style={{ marginTop: SIZES.base }}>
+        <View style={{ marginTop: SIZES.base, left: 0 }}>
           <Text
             style={{
               fontSize: SIZES.small,

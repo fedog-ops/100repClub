@@ -28,7 +28,6 @@ const DetailsHeader = ({ data, navigation}) => {
 
 const Details = ({route, navigation}) => {
   const {data} = route.params
-console.log(data)
   return (
   <SafeAreaView style={{flex:1}}>
      <FocusedStatusBar 
